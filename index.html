@@ -3,22 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<title>Almost there</title>
+<title>hangfolio: personal sites for researchers and engineers</title>
+<meta name="description" content="An Astro theme and GitHub Pages template for researchers and engineers. Create your site in 5 steps, with updates that arrive as one-click pull requests.">
+<link rel="canonical" href="https://github.com/hangfolio/hangfolio">
+<meta http-equiv="refresh" content="0; url=https://github.com/hangfolio/hangfolio">
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f5f7fa; color: #121826;
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  @media (prefers-color-scheme: dark) { body { background: #0e1219; color: #e2e7ef; } a { color: #8fb2ea; } }
+  main { max-width: 32rem; padding: 0 1.5rem; }
+  a { color: #2c5aa0; }
+</style>
 </head>
 <body>
 <main>
-<h1>Almost there</h1>
-<p>Your site is not built yet. In your repository, open Settings, then Pages, and set Source to GitHub Actions.</p>
-<p id="link"></p>
+  <h1>hangfolio</h1>
+  <p>Personal sites for researchers and engineers. Taking you to <a href="https://github.com/hangfolio/hangfolio">the project on GitHub</a>.</p>
+  <p>See the <a href="https://hangfolio.github.io/starter/">live demo</a>, or <a href="https://github.com/new?template_owner=hangfolio&amp;template_name=starter&amp;owner=%40me&amp;visibility=public">create your site</a>.</p>
 </main>
-<script>
-  // user.github.io -> https://github.com/user/user.github.io/settings/pages
-  var owner = location.hostname.split('.')[0];
-  var a = document.createElement('a');
-  a.href = 'https://github.com/' + owner + '/' + location.hostname + '/settings/pages';
-  a.textContent = 'Open the Pages settings';
-  document.getElementById('link').appendChild(a);
-</script>
 </body>
 </html>
